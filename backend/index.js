@@ -10,7 +10,7 @@ const webhookRoutes = require('./routes/webhook');
 const transactionsRoutes = require('./routes/transactions');
 const swaggerUi = require('swagger-ui-express');
 const swaggerFile = require('./swagger-output.json');
-
+const { SwaggerUIBundle, SwaggerUIStandalonePreset } = require('swagger-ui-dist');
 
 
 const app = express();
