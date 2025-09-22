@@ -21,6 +21,7 @@
     "mongoose": "^7.2.0",
     "morgan": "^1.10.0",
     "node-cron": "^4.2.1",
+    "swagger-ui-dist": "^5.29.0",
     "swagger-ui-express": "^5.0.1"
   },
   "devDependencies": {
