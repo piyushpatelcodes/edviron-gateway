@@ -44,7 +44,12 @@ app.use('/auth', authRoutes);
 app.use('/payments', paymentRoutes);
 app.use('/webhook', webhookRoutes);
 app.use('/transactions', transactionsRoutes);
-app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerFile));
+app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerFile,
+  {
+    customCssUrl:
+      "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css",
+  }
+));
 
 // error handler
 app.use((err, req, res, next) => {
