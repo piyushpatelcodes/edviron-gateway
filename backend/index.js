@@ -47,7 +47,7 @@ app.use('/transactions', transactionsRoutes);
 app.use('/docs', swaggerUi.serve, swaggerUi.setup(swaggerFile,
   {
     customCssUrl:
-      "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/4.1.0/swagger-ui.min.css",
+      "https://cdnjs.cloudflare.com/ajax/libs/swagger-ui/5.29.0/swagger-ui.min.css",
   }
 ));
 
