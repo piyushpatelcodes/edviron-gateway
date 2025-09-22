@@ -17,7 +17,7 @@ const app = express();
 // app.use(cors());
 const allowedOrigins = [
   'http://localhost:5173',
-  'https://your-frontend-domain.com'
+  'https://edviron-gateway.vercel.app'
 ];
 
 app.use(cors({

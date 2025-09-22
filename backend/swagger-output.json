@@ -5,10 +5,10 @@
     "description": "REST API for managing transactions and payments",
     "version": "1.0.0"
   },
-  "host": "localhost:8080",
+  "host": "https://edviron-gateway.vercel.app",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/": {
@@ -31,7 +31,10 @@
             "schema": {
               "type": "object",
               "properties": {
-                "username": {
+                "name": {
+                  "example": "any"
+                },
+                "email": {
                   "example": "any"
                 },
                 "password": {
@@ -61,7 +64,7 @@
             "schema": {
               "type": "object",
               "properties": {
-                "username": {
+                "email": {
                   "example": "any"
                 },
                 "password": {
@@ -109,6 +112,9 @@
                 },
                 "orderAmount": {
                   "example": "any"
+                },
+                "student": {
+                  "example": "any"
                 }
               }
             }
@@ -138,6 +144,9 @@
               "type": "object",
               "properties": {
                 "order_info": {
+                  "example": "any"
+                },
+                "collect_request_id": {
                   "example": "any"
                 }
               }

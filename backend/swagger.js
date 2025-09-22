@@ -5,8 +5,8 @@ const doc = {
     title: 'School Payments API',
     description: 'REST API for managing transactions and payments',
   },
-  host: 'localhost:8080', // change if deployed
-  schemes: ['http'],
+  host: 'https://edviron-gateway.vercel.app', // change if deployed
+  schemes: ['https'],
 //   host: 'localhost:8080',
 //   schemes: ['https'],
 };
