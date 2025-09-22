@@ -5,7 +5,7 @@
     "description": "REST API for managing transactions and payments",
     "version": "1.0.0"
   },
-  "host": "https://edviron-gateway.vercel.app",
+  "host": "https://edviron-gateway-backend.vercel.app",
   "basePath": "/",
   "schemes": [
     "https"
